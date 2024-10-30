@@ -2,9 +2,10 @@ $headerText: #fff;
 $pText: #0D1B2A;
 $containerColor: #f5f5f5;
 $primaryColor: #00b6c4;
+$secondaryColor: #04edff;
 
-body, h2 {
-    background: $primaryColor;
+body {
+    background: linear-gradient($primaryColor, $secondaryColor);
 }
 
 .container {
@@ -12,6 +13,7 @@ body, h2 {
 }
 
 h2 {
+    background: $primaryColor;
     color: $headerText;
 }
 
