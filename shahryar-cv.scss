@@ -1,0 +1,17 @@
+$headerText: #fff;
+$pText: #0D1B2A;
+$containerColor: #f5f5f5;
+$primaryColor: #00b6c4;
+
+body {
+    background: $primaryColor;
+}
+
+h2 {
+    background: $primaryColor;
+    color: $headerText;
+}
+
+p {
+    color: $pText;
+}
